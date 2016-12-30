@@ -1,0 +1,50 @@
+#contacto {
+	
+    font-size: x-large;
+    padding: 0px;
+    ol {
+		background-color: gainsboro;
+		padding: 20px 0px 0px;
+	}
+
+    .profile-image {
+    	width: 80px;
+    	height: 80px
+    }
+    
+    li {
+    	list-style: none;
+	    text-align: center;
+	    margin: 0px 0px 20px 0px;
+	    
+    }
+    .conForm {
+	    	background-color: white;
+	    	padding-top: 25px;
+	}
+    
+    .contact-span{
+   	    text-align: left;
+	    display: inline-block;
+	    white-space: nowrap;
+    }
+    
+    #escribenosText{
+    	width:80%;
+    	height: 250px
+    }
+	
+}
+@media (max-width: 762px){
+		#contacto{
+			font-size: larger;
+			.contact-span{
+		   	    text-align: left;
+		    }
+		    .profile-image{
+			    width: 50px;
+	    		height: 50px
+		    }
+		
+		}
+}
